@@ -1,0 +1,107 @@
+@import url(null.css);
+
+@import url(https://fonts.googleapis.com/css?family=Pacifico:400&display=swap);
+
+@font-face {
+   font-family: 'Larsseit';
+   src: url("../fonts/Larsseit/Larsseit.woff2") format("woff2"), url("../fonts/Larsseit/Larsseit.woff") format('woff');
+   font-display: swap;
+   font-weight: 400;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Larsseit';
+   src: url("../fonts/Larsseit/Larsseit-Medium.woff2") format("woff2"), url("../fonts/Larsseit/Larsseit-Medium.woff") format('woff');
+   font-display: swap;
+   font-weight: 500;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Larsseit';
+   src: url("../fonts/Larsseit/Larsseit-Bold.woff2") format("woff2"), url("../fonts/Larsseit/Larsseit-Bold.woff") format('woff');
+   font-display: swap;
+   font-weight: 700;
+   font-style: normal;
+}
+
+body{
+   font-family: 'Pacifico';
+   line-height: 150%;
+}
+
+/* =========================================== */
+
+.wrapper {
+   color: crimson;
+}
+
+.larsseit {
+   font-family: 'Larsseit';
+   color: firebrick;
+}
+
+.larsseit > p{
+   font-weight: 700;
+}
+
+.larsseit div > p{
+   font-weight: 500;
+}
+
+.roboto {
+   font-family: 'Roboto';
+   font-weight: 900;
+   color: fuchsia;
+}
+
+.roboto div > p{
+   font-weight: 300;
+}
+
+.pacifico {
+   font-family: 'Pacifico';
+}
+
+.main__title {
+   color: crimson;
+}
+
+.container__text {
+   font-family: 'Larsseit';
+   color: firebrick;
+}
+
+.container__block {
+   font-family: 'Roboto';
+   font-weight: 300;
+   color: forestgreen;
+}
+
+.block__title {
+   font-family: 'Larsseit';
+   font-weight: 700;
+   color: firebrick;
+}
+
+.block__list {
+   font-family: 'Larsseit';
+   font-weight: 500;
+   color: firebrick;
+}
+
+.box__title {
+   font-family: 'Pacifico';
+   color: crimson;
+}
+
+p.text{
+   font-family: Roboto;
+   font-weight: 900;
+}
+
+.box__list {
+   font-family: 'Larsseit';
+   color: firebrick;
+}
